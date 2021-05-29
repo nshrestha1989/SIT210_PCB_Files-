@@ -1,0 +1,116 @@
+{
+  "uuid": "f4d09f751d5effcec5b9fb00596fe8ad",
+  "path": "Offline/PCB_design",
+  "name": "PCB_design",
+  "content": "",
+  "created_at": "2021-05-26 21:22:24",
+  "updated_at": "2021-05-29 15:16:46",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "df1eefad95773b99f35215ee9832411c",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e3e0613760c444d487fda884d598d978": 1,
+        "f7ee3b07db4642c6b5c4260f487d6c58": 3,
+        "17c00ff74c1a457982a7b81c69029929": 1,
+        "5c668b4347f0499ba253edd3b5291481": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "RASPBERRY_PI_3_shield",
+          1,
+          "RASPBERRY PI MODEL 3 SHIELD",
+          "PCB1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "dde70d4a9c6745c99e017484e57f933c",
+            "uuid": "5c668b4347f0499ba253edd3b5291481"
+          }
+        ],
+        [
+          "5V_Buzzer",
+          1,
+          "5VBUZZER_2",
+          "U4",
+          {
+            "BOM_Manufacturer Part": "HN9650B",
+            "puuid": "798d21ac1f7e48adb2eea1fc92243e30",
+            "uuid": "17c00ff74c1a457982a7b81c69029929"
+          }
+        ],
+        [
+          "HC-SR04",
+          1,
+          "HC-SR04",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "HC-SR04",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "af62965462a6432bbc78870cba9d5176",
+            "uuid": "e3e0613760c444d487fda884d598d978"
+          }
+        ],
+        [
+          "1k",
+          3,
+          "R0201",
+          "R1,R2,R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b600ab0518154c0c9d2ed5ca96244c69",
+            "uuid": "f7ee3b07db4642c6b5c4260f487d6c58"
+          }
+        ]
+      ],
+      "updateTime": 1622265320,
+      "createTime": 1622258335,
+      "histories": [],
+      "created_at": "2021-05-29 12:48:55",
+      "updated_at": "2021-05-29 14:45:20"
+    },
+    {
+      "uuid": "f67244ddea6bd528479931edc8978a47",
+      "puuid": "f4d09f751d5effcec5b9fb00596fe8ad",
+      "title": "PCB_PCB_design_2",
+      "filename": "PCB_PCB_design_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "798d21ac1f7e48adb2eea1fc92243e30": 1,
+        "af62965462a6432bbc78870cba9d5176": 1,
+        "b600ab0518154c0c9d2ed5ca96244c69": 3,
+        "dde70d4a9c6745c99e017484e57f933c": 1
+      },
+      "BOM": [],
+      "updateTime": 1622267206,
+      "createTime": 1622260370,
+      "histories": [],
+      "created_at": "2021-05-29 13:22:50",
+      "updated_at": "2021-05-29 15:16:46"
+    }
+  ],
+  "sort": [],
+  "title": "PCB_design",
+  "foldername": "PCB_design",
+  "schfilename": "PCB_design.json",
+  "schfilemtime": 1622265320358
+}
